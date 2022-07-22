@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&family=Cinzel&family=Edu+NSW+ACT+Foundation:wght@700&family=Fascinate&family=Inconsolata:wght@200&family=Lato:wght@300&family=Merriweather:ital,wght@1,300&family=Rajdhani&family=Raleway:wght@100&family=Signika+Negative&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    
+
+}
+
+
+
+
+
+.container{
+    display: grid;
+    height: 120px;
+    width: 100%;
+    
+
+
+
+}
+
+.nav{
+    background-color: #4498E6;
+    width: 700px;
+}
+header h1{
+    
+    background-color: #4498E6;
+    color: white;
+    font-weight: 800px ;
+    width: 600px;
+    height: 90px;
+    font: xx-large;
+    font-size: 60px;
+   
+
+
+    
+   
+}
+header h1::before{
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #4498E6;
+   
+    font-family: 'Zen Maru Gothic', sans-serif;;
+    
+ 
+    
+}
+
+header button{
+    color: #21E036;
+    font-size: medium;
+    width: 90px;
+    height: 81px;
+    background-color:gray;
+    border: none;
+    font-weight: bolder;
+    font-weight: 1000px;
+   
+   
+
+
+
+}
+ul li{
+    
+    display: inline-block;
+    justify-content: flex-end;
+    align-items: flex-end;
+   font-weight: 3000px;
+ 
+   font-family: 'Advent Pro', sans-serif;
+   width: max-content;
+   padding: 0 60px;
+    
+}
+li :hover{
+    color: white;
+    transition: 0.5s;
+    
+
+    
+
+}
+header button:hover{
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+/*list in header*/
+header li{
+    font-size: larger;
+}
+/*list 1*/
+ #li1{
+    text-decoration: none;
+    font-weight: 300px;
+    width: 88px;
+    font-size: xx-large;
+    font: bolder;
+    
+
+
+
+}/*list 2*/
+ #li2{
+    text-decoration: none;
+width: 88px;
+font-size: xx-large;
+font: bold;
+
+}
+
+/*list 3*/
+
+
+ #li3{
+    text-decoration: none;
+width: 88px;
+font-size: xx-large;
+font: bold;
+
+}
+/*container2 ko*/
+.container2{
+width:100%;
+border-radius: 0.5%;
+height: 600px;
+
+background-color: white;
+float: inline-end;
+border-color: red;
+
+}
+/*h1 container 2*/
+.container2 #gen {
+    display: flex;
+  
+    justify-content: center;
+    color: black;
+    font-family: sans-serif;
+    font-style: initial;
+    font-size: 55px;
+
+}
+
+.container2 h3{
+    display: flex;
+    justify-content: left;
+    color: black;
+    font-family: monospace;
+
+   
+    
+}/*form ko form-1*/
+.form-control #form-1{
+    border: 0;
+   border-bottom:  4px solid grey;
+   outline: none;
+    text-decoration: none;
+    height: 39px;
+    font-size: 19px;
+   
+   width: 80%;}
+ .form-control #form-2{
+    border: 0;
+   border-bottom:  4px solid grey;
+    text-decoration: none;
+    font-size: 19px;
+    outline: none;
+    justify-content: baseline;
+       
+   width: 80%;}
+.form-control #form-3{
+    border: 0;
+   border-bottom:  4px solid grey;
+    text-decoration: none;
+    font-size: 19px;
+   outline: none;
+   width: 80%;}
+
+
+  h2{
+    font-weight: 900px}
+
+h5{
+    color: white;
+}
+#wwe{
+    height: 300px;
+
+}
+.form-control #sumbit{
+    background-color:  #50C7FA;
+    color: white;
+    padding: 10px;
+    width: 90px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: monospace;
+    font: bolder;
+    
+    
+    font-size: x-large;
+    display: inline-block;
+}
+/*header nav*/
+.container header .nav{
+    width: 800px;
+}
+/*container 2 h2 login talko*/
+.container2 #yes{
+    font-family: 'Signika Negative', sans-serif;
+    font: lighter;
+}
+/*link signup*/
+.container2 #s{
+    color: blue;
+    outline: none;
+    text-decoration: none;
+    width: max-content;
+    height: max-content;
+    justify-content: baseline;
+    
+}
+.showcase{
+    height: 500px;
+    
+    position: relative;
+
+}
+/* show case text h1*/
+.showcase-text #ruth{
+    font-size: 40px;
+    display: flex;
+    float: right;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+
+}
+.showcase-text p{
+    
+    display: block;
+    float: right;
+    font-size: 30px;
+    align-items: baseline;
+    
+    
+}
+.container2 form{
+    border: 100px;
+
+}
+#grid-1 h1{
+    display: flex;
+    justify-content: center;
+    width: 50.1%;
+    height: auto;
+    background-color: #4498E6;
+
+    
+}
+#grid-1 p{
+    float: right;
+    font: 200;
+    gap: 30px;
+    display: block;
+
+}
+
+
+#tiger{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    float: right;
+
+}
+form{
+    width:50%;
+    border: dotted;
+
+
+}
+
+
+#sumbit:hover{
+    background-color: #4498E6;
+    color: black;
+    transition: 0.5s;
+    transform: scale(.94);
+}
+#ess{
+    position: relative;
+
+}
+#grid-2{
+    display: grid;
+    display: grid;
+    width: 36%;
+    background-color: white;
+    height: 500px;
+   border: 60px;
+   border-radius: 5%;
+   border-left: 60px;
+}
+  
+
+
+
+
+.container2{
+  
+    gap: 30px;
+
+
+
+}
+#tiger{
+    background-color: #4498E6;
+    font-family: 'Open Sans', sans-serif;
+     color: white;
+     font:   lighter;
+     
+
+
+}
+.container2{
+    background-color: #4498E6;
+    
+}
+br{
+    background-color: #4498E6;
+}
+#ruth{
+        font-family: 'Comfortaa', cursive;
+    color: white;
+    font: light;
+  
+}
+#benjohn{
+    width: 170px;
+    height: 75px;
+    font-size: x-large;
+    border-radius: 10%;
+    background-color: #4498E6;
+    color: white;
+    border: 2.5px white solid;
+    
+}
+#steven{
+        height: 10px;
+}
+#benjohn:hover{
+  transform: scale(.93);
+  transition: 0.8s;
+  background-color: #1169DB;
+  
+  
+
+
+}
+
